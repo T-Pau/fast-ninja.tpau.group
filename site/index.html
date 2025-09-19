@@ -13,7 +13,7 @@
 <link href="assets/stylesheets/main.d7758b05.min.css" rel="stylesheet"/>
 <link href="assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
 <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-<link href="assets/stylesheets/extra-style.hp5akni5.min.css" rel="stylesheet"/></head>
+<link href="assets/stylesheets/extra-style.4npyd5d3.min.css" rel="stylesheet"/></head>
 <body data-md-color-accent="indigo" data-md-color-primary="custom" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
@@ -37,7 +37,7 @@
 <div class="md-header__ellipsis">
 <div class="md-header__topic">
 <span class="md-ellipsis">
-            fast-ninja <span class="md-header__sub_topic">— Minimalist Frontend to Ninja.</span>
+            fast-ninja <span class="md-header__sub_topic">— Light-weight Build System Based on Ninja.</span>
 </span>
 </div>
 <div class="md-header__topic" data-md-component="header-topic">
@@ -268,11 +268,22 @@
 <article class="md-content__inner md-typeset">
 <h1>fast-ninja</h1>
 <h2 id="what-is-fast-ninja">What Is fast-ninja?</h2>
-<p>fast-ninja is a preprocessor to make the <a href="https://ninja-build.org">Ninja Build System</a> usable.</p>
+<p>The <a href="https://ninja-build.org">Ninja Build System</a> is not designed to be used directly. fast-ninja is a light-weight preprocessor that adds the missing features and conveniences to make it usable almost directly.</p>
 <h2 id="why-use-fast-ninja">Why Use fast-ninja?</h2>
+<p>Most other build systems that can use Ninja are centered around building executables for modern computers on many platforms and add a lot of weight to accomplish that. They are therefore a bad fit for projects that don't need any of that, like cross-building programs for retro computers.</p>
+<p>fast-ninja is designed for projects that don't use a modern compiler toolchain but use tools that already work across multiple platforms.</p>
 <h2 id="getting-started">Getting Started</h2>
+<p>First, <a href="https://github.com/T-Pau/fast-ninja/blob/main/INSTALL.md">build and install</a> fast-ninja.</p>
+<p>Then, set up the build directory:</p>
+<pre><code class="language-sh">mkdir build
+cd build
+fast-ninja ..
+</code></pre>
+<p>Lastly, build your project:</p>
+<pre><code class="language-sh">ninja
+</code></pre>
 <h2 id="staying-in-touch">Staying in Touch</h2>
-<p>It's an old adage that it's never the compiler's fault, but since fast-ninja is still young, bugs and misfeatures are likely. If you found a problem, please <a href="https://github.com/T-Pau/fast-ninja/issues/new/choose">create an issue on GitHub</a> or let us know at <a href="mailto:fast-ninja@tpau.group">fast-ninja@tpau.group</a>.</p>
+<p>If you found a problem, please <a href="https://github.com/T-Pau/fast-ninja/issues/new/choose">create an issue on GitHub</a> or let us know at <a href="mailto:fast-ninja@tpau.group">fast-ninja@tpau.group</a>.</p>
 <p>Also let us know if the documentation is incomplete, inaccurate, or hard to understand.</p>
 </article>
 </div>
