@@ -1,47 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://accelerate.tpau.group/</loc>
-         <lastmod>2025-09-14</lastmod>
+         <loc>https://fast-ninja.tpau.group/</loc>
+         <lastmod>2025-09-19</lastmod>
     </url>
     <url>
-         <loc>https://accelerate.tpau.group/License/</loc>
-         <lastmod>2025-09-14</lastmod>
+         <loc>https://fast-ninja.tpau.group/License/</loc>
+         <lastmod>2025-09-19</lastmod>
     </url>
     <url>
-         <loc>https://accelerate.tpau.group/Examples/</loc>
-         <lastmod>2025-09-14</lastmod>
+         <loc>https://fast-ninja.tpau.group/Explanations/</loc>
+         <lastmod>2025-09-19</lastmod>
     </url>
     <url>
-         <loc>https://accelerate.tpau.group/Examples/Hello-World-C64/</loc>
-         <lastmod>2025-09-14</lastmod>
+         <loc>https://fast-ninja.tpau.group/How-To-Guides/</loc>
+         <lastmod>2025-09-19</lastmod>
     </url>
     <url>
-         <loc>https://accelerate.tpau.group/Reference/</loc>
-         <lastmod>2025-09-14</lastmod>
+         <loc>https://fast-ninja.tpau.group/Reference/</loc>
+         <lastmod>2025-09-19</lastmod>
     </url>
     <url>
-         <loc>https://accelerate.tpau.group/Reference/Assembler-Source-File/</loc>
-         <lastmod>2025-09-14</lastmod>
-    </url>
-    <url>
-         <loc>https://accelerate.tpau.group/Reference/CPU-Definition/</loc>
-         <lastmod>2025-09-14</lastmod>
-    </url>
-    <url>
-         <loc>https://accelerate.tpau.group/Reference/Expressions/</loc>
-         <lastmod>2025-09-14</lastmod>
-    </url>
-    <url>
-         <loc>https://accelerate.tpau.group/Reference/Introduction/</loc>
-         <lastmod>2025-09-14</lastmod>
-    </url>
-    <url>
-         <loc>https://accelerate.tpau.group/Reference/Structured-Values/</loc>
-         <lastmod>2025-09-14</lastmod>
-    </url>
-    <url>
-         <loc>https://accelerate.tpau.group/Reference/Target-Definition/</loc>
-         <lastmod>2025-09-14</lastmod>
+         <loc>https://fast-ninja.tpau.group/Tutorials/</loc>
+         <lastmod>2025-09-19</lastmod>
     </url>
 </urlset>
